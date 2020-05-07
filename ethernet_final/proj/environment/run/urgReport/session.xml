@@ -1,0 +1,21 @@
+<session version="1.1" release="M-2017.03-SP1-1" timestp="2019-06-18 04:18:59 GMT">
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="41.0093%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="environment_top.test::environment_cov::ethernet_cg">
+      <metric name="Group" value="41.0093%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

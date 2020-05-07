@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Group :: environment_top.test::environment_cov::ethernet_cg</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Group : environment_top.test::environment_cov::ethernet_cg</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | hierarchy | modlist | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Group : <a href="#"  onclick="showContent('environment_top.test::environment_cov::ethernet_cg')">environment_top.test::environment_cov::ethernet_cg</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td><b>SCORE</b></td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="s4 cl rt"> 41.01</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/DCNFS/users/student/jtrinh/elen613/ETH_uvm/proj/environment/run/../src/environment_cov.sv')">/DCNFS/users/student/jtrinh/elen613/ETH_uvm/proj/environment/run/../src/environment_cov.sv</a><br clear=all>
+<br clear=all>
+</div>
+<hr>
+<br clear=all>
+<span class=repname>Summary for Group   environment_top.test::environment_cov::ethernet_cg
+</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s2">
+<td><a href="#var_tbl_environment_top.test::environment_cov::ethernet_cg" >Variables</a></td>
+<td class="rt">179</td>
+<td class="rt">143</td>
+<td class="rt">36</td>
+<td class="rt">41.01 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class="repname" id="var_tbl_environment_top.test::environment_cov::ethernet_cg">Variables for Group  environment_top.test::environment_cov::ethernet_cg
+</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">VARIABLE</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>GOAL</td><td>WEIGHT</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>COMMENT</td></tr><tr class="s10">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_ENABLE"  onclick="checkLink(this)" target="detailFrame">TX_ENABLE</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.INT_PENDING"  onclick="checkLink(this)" target="detailFrame">INT_PENDING</a></td>
+<td class="rt">64</td>
+<td class="rt">61</td>
+<td class="rt">3</td>
+<td class="rt">4.69  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">64</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_CRC_ERROR"  onclick="checkLink(this)" target="detailFrame">STATUS_CRC_ERROR</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_FRAGMENT_ERROR"  onclick="checkLink(this)" target="detailFrame">STATUS_FRAGMENT_ERROR</a></td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_TXDFIFO_OVFLOW"  onclick="checkLink(this)" target="detailFrame">STATUS_TXDFIFO_OVFLOW</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_TXDFIFO_UDFLOW"  onclick="checkLink(this)" target="detailFrame">STATUS_TXDFIFO_UDFLOW</a></td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_RXDFIFO_OVFLOW"  onclick="checkLink(this)" target="detailFrame">STATUS_RXDFIFO_OVFLOW</a></td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_RXDFIFO_UDFLOW"  onclick="checkLink(this)" target="detailFrame">STATUS_RXDFIFO_UDFLOW</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_PAUSE_FRAME_RX"  onclick="checkLink(this)" target="detailFrame">STATUS_PAUSE_FRAME_RX</a></td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_LOCAL_FAULT"  onclick="checkLink(this)" target="detailFrame">STATUS_LOCAL_FAULT</a></td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_REMOTE_FAULT"  onclick="checkLink(this)" target="detailFrame">STATUS_REMOTE_FAULT</a></td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_LENGTH_ERROR"  onclick="checkLink(this)" target="detailFrame">STATUS_LENGTH_ERROR</a></td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s0">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.INT_MASK"  onclick="checkLink(this)" target="detailFrame">INT_MASK</a></td>
+<td class="rt">64</td>
+<td class="rt">63</td>
+<td class="rt">1</td>
+<td class="rt">1.56  </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">64</td>
+<td></td>
+</tr><tr class="s4">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_OCTETS"  onclick="checkLink(this)" target="detailFrame">TX_OCTETS</a></td>
+<td class="rt">11</td>
+<td class="rt">6</td>
+<td class="rt">5</td>
+<td class="rt">45.45 </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s4">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.RX_OCTETS"  onclick="checkLink(this)" target="detailFrame">RX_OCTETS</a></td>
+<td class="rt">11</td>
+<td class="rt">6</td>
+<td class="rt">5</td>
+<td class="rt">45.45 </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_PKTS"  onclick="checkLink(this)" target="detailFrame">TX_PKTS</a></td>
+<td class="rt">9</td>
+<td class="rt">0</td>
+<td class="rt">9</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.RX_PKTS"  onclick="checkLink(this)" target="detailFrame">RX_PKTS</a></td>
+<td class="rt">9</td>
+<td class="rt">0</td>
+<td class="rt">9</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_ENABLE"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_ENABLE">Summary for Variable TX_ENABLE</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for TX_ENABLE</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>enable</td>
+<td class="rt">4602293</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.INT_PENDING"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.INT_PENDING">Summary for Variable INT_PENDING</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>Automatically Generated Bins</td>
+<td class="rt">64</td>
+<td class="rt">61</td>
+<td class="rt">3</td>
+<td class="rt">4.69  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Bins for INT_PENDING</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td nowrap>[auto[16:23] - auto[128:135]]</td>
+<td align=center nowrap>--</td>
+<td align=center nowrap>--</td>
+<td class="rt">15</td>
+</tr><tr class="s3">
+<td nowrap>[auto[144:151] - auto[504:511]]</td>
+<td align=center nowrap>--</td>
+<td align=center nowrap>--</td>
+<td class="rt">46</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>auto[0:7]</td>
+<td class="rt">30</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[8:15]</td>
+<td class="rt">1843</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[136:143]</td>
+<td class="rt">4600420</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_CRC_ERROR"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_CRC_ERROR">Summary for Variable STATUS_CRC_ERROR</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_CRC_ERROR</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>enable</td>
+<td class="rt">3961</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_FRAGMENT_ERROR"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_FRAGMENT_ERROR">Summary for Variable STATUS_FRAGMENT_ERROR</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_FRAGMENT_ERROR</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>enable</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_TXDFIFO_OVFLOW"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_TXDFIFO_OVFLOW">Summary for Variable STATUS_TXDFIFO_OVFLOW</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_TXDFIFO_OVFLOW</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>enable</td>
+<td class="rt">26783</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_TXDFIFO_UDFLOW"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_TXDFIFO_UDFLOW">Summary for Variable STATUS_TXDFIFO_UDFLOW</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_TXDFIFO_UDFLOW</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>enable</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_RXDFIFO_OVFLOW"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_RXDFIFO_OVFLOW">Summary for Variable STATUS_RXDFIFO_OVFLOW</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_RXDFIFO_OVFLOW</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>enable</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_RXDFIFO_UDFLOW"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_RXDFIFO_UDFLOW">Summary for Variable STATUS_RXDFIFO_UDFLOW</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_RXDFIFO_UDFLOW</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>enable</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_PAUSE_FRAME_RX"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_PAUSE_FRAME_RX">Summary for Variable STATUS_PAUSE_FRAME_RX</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_PAUSE_FRAME_RX</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>enable</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_LOCAL_FAULT"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_LOCAL_FAULT">Summary for Variable STATUS_LOCAL_FAULT</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_LOCAL_FAULT</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>enable</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_REMOTE_FAULT"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_REMOTE_FAULT">Summary for Variable STATUS_REMOTE_FAULT</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_REMOTE_FAULT</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>enable</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_LENGTH_ERROR"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_LENGTH_ERROR">Summary for Variable STATUS_LENGTH_ERROR</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for STATUS_LENGTH_ERROR</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>enable</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unused</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.INT_MASK"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.INT_MASK">Summary for Variable INT_MASK</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s0">
+<td>Automatically Generated Bins</td>
+<td class="rt">64</td>
+<td class="rt">63</td>
+<td class="rt">1</td>
+<td class="rt">1.56  </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Bins for INT_MASK</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td nowrap>[auto[8:15] - auto[504:511]]</td>
+<td align=center nowrap>--</td>
+<td align=center nowrap>--</td>
+<td class="rt">63</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>auto[0:7]</td>
+<td class="rt">4602293</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_OCTETS"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_OCTETS">Summary for Variable TX_OCTETS</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s4">
+<td>User Defined Bins</td>
+<td class="rt">11</td>
+<td class="rt">6</td>
+<td class="rt">5</td>
+<td class="rt">45.45 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for TX_OCTETS</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>hundred</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>fifty</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>forty</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>thirty</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>twenty</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>ten</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>huge</td>
+<td class="rt">3163206</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>million</td>
+<td class="rt">1281621</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>hundredthousand</td>
+<td class="rt">127295</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>tenthousand</td>
+<td class="rt">2483</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>thousand</td>
+<td class="rt">369</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.RX_OCTETS"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.RX_OCTETS">Summary for Variable RX_OCTETS</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s4">
+<td>User Defined Bins</td>
+<td class="rt">11</td>
+<td class="rt">6</td>
+<td class="rt">5</td>
+<td class="rt">45.45 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for RX_OCTETS</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>hundred</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>fifty</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>forty</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>thirty</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>twenty</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s3">
+<td>ten</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>huge</td>
+<td class="rt">3122376</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>million</td>
+<td class="rt">1320949</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>hundredthousand</td>
+<td class="rt">128488</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>tenthousand</td>
+<td class="rt">2483</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>thousand</td>
+<td class="rt">185</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_PKTS"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_PKTS">Summary for Variable TX_PKTS</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">9</td>
+<td class="rt">0</td>
+<td class="rt">9</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for TX_PKTS</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>huge</td>
+<td class="rt">3772979</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>tenthousand</td>
+<td class="rt">733509</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>thousand</td>
+<td class="rt">78192</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>hundred</td>
+<td class="rt">8561</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>fifty</td>
+<td class="rt">1612</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>forty</td>
+<td class="rt">1886</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>thirty</td>
+<td class="rt">1887</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>twenty</td>
+<td class="rt">1812</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>ten</td>
+<td class="rt">1768</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_environment_top.test::environment_cov::ethernet_cg.RX_PKTS"></a><span class="repname" id="inst_tag_environment_top.test::environment_cov::ethernet_cg.RX_PKTS">Summary for Variable RX_PKTS</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">9</td>
+<td class="rt">0</td>
+<td class="rt">9</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for RX_PKTS</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>huge</td>
+<td class="rt">3761662</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>tenthousand</td>
+<td class="rt">743862</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>thousand</td>
+<td class="rt">78888</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>hundred</td>
+<td class="rt">8627</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>fifty</td>
+<td class="rt">1623</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>forty</td>
+<td class="rt">1866</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>thirty</td>
+<td class="rt">1843</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>twenty</td>
+<td class="rt">1828</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>ten</td>
+<td class="rt">1807</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_ENABLE">Variable : TX_ENABLE</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.INT_PENDING">Variable : INT_PENDING</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_CRC_ERROR">Variable : STATUS_CRC_ERROR</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_FRAGMENT_ERROR">Variable : STATUS_FRAGMENT_ERROR</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_TXDFIFO_OVFLOW">Variable : STATUS_TXDFIFO_OVFLOW</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_TXDFIFO_UDFLOW">Variable : STATUS_TXDFIFO_UDFLOW</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_RXDFIFO_OVFLOW">Variable : STATUS_RXDFIFO_OVFLOW</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_RXDFIFO_UDFLOW">Variable : STATUS_RXDFIFO_UDFLOW</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_PAUSE_FRAME_RX">Variable : STATUS_PAUSE_FRAME_RX</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_LOCAL_FAULT">Variable : STATUS_LOCAL_FAULT</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_REMOTE_FAULT">Variable : STATUS_REMOTE_FAULT</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.STATUS_LENGTH_ERROR">Variable : STATUS_LENGTH_ERROR</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.INT_MASK">Variable : INT_MASK</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_OCTETS">Variable : TX_OCTETS</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.RX_OCTETS">Variable : RX_OCTETS</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.TX_PKTS">Variable : TX_PKTS</a>    </li>
+    <li>
+      <a href="#inst_tag_environment_top.test::environment_cov::ethernet_cg.RX_PKTS">Variable : RX_PKTS</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

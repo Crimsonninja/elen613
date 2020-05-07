@@ -1,0 +1,4 @@
+Homework 1
+
+Create a FIFO and verify its behavior (i.e. keeping track of the count, head, and tail).
+

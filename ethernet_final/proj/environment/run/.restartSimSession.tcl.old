@@ -1,0 +1,202 @@
+# Begin_DVE_Session_Save_Info
+# DVE restart session
+# Saved on Fri Jun 7 22:08:44 2019
+# Designs open: 1
+#   Sim: /DCNFS/users/student/jtrinh/elen613/ETH_uvm/proj/environment/run/simv
+# Toplevel windows open: 2
+# 	TopLevel.1
+# 	TopLevel.2
+#   Source.1: _vcs_unit__675955336
+#   Wave.1: 110 signals
+#   Group count = 1
+#   Group dut signal count = 110
+# End_DVE_Session_Save_Info
+
+# DVE version: M-2017.03-SP1-1_Full64
+# DVE build date: Jul 10 2017 21:08:24
+
+
+#<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
+
+gui_set_loading_session_type Restart
+gui_continuetime_set
+gui_clear_window -type Wave
+gui_clear_window -type List
+
+# Application preferences
+gui_set_pref_value -key app_default_font -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+gui_src_preferences -tabstop 8 -maxbits 24 -windownumber 1
+#<WindowLayout>
+
+# DVE top-level session
+
+
+# Create and position top-level window: TopLevel.1
+
+set TopLevel.1 TopLevel.1
+
+# Docked window settings
+set HSPane.1 HSPane.1
+set Hier.1 Hier.1
+set Stack.1 Stack.1
+set Class.1 Class.1
+set Object.1 Object.1
+set DLPane.1 DLPane.1
+set Data.1 Data.1
+set Local.1 Local.1
+set Member.1 Member.1
+set Console.1 Console.1
+gui_sync_global -id ${TopLevel.1} -option true
+
+# MDI window settings
+set Source.1 Source.1
+gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
+
+# End MDI window settings
+
+
+# Create and position top-level window: TopLevel.2
+
+set TopLevel.2 TopLevel.2
+
+# Docked window settings
+gui_sync_global -id ${TopLevel.2} -option true
+
+# MDI window settings
+set Wave.1 Wave.1
+gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 353} {child_wave_right 860} {child_wave_colname 174} {child_wave_colvalue 174} {child_wave_col1 0} {child_wave_col2 1}}
+
+# End MDI window settings
+
+
+#</WindowLayout>
+
+#<Database>
+
+gui_set_precision 1ps
+gui_set_time_units 1ps
+#</Database>
+
+# DVE Global setting session: 
+
+
+# Global: Breakpoints
+
+# Global: Bus
+
+# Global: Expressions
+
+# Global: Signal Time Shift
+
+# Global: Signal Compare
+
+# Global: Signal Groups
+gui_load_child_values {environment_top.dut}
+
+
+set _session_group_1 dut
+gui_sg_create "$_session_group_1"
+set dut "$_session_group_1"
+
+gui_sg_addsignal -group "$_session_group_1" { environment_top.dut.clear_stats_tx_octets environment_top.dut.txhfifo_ralmost_empty environment_top.dut.rxdfifo_ren environment_top.dut.rxhfifo_ralmost_empty environment_top.dut.rxdfifo_rstatus environment_top.dut.status_rxdfifo_ovflow environment_top.dut.pkt_rx_val environment_top.dut.txhfifo_wfull environment_top.dut.reset_156m25_n environment_top.dut.wb_stb_i environment_top.dut.ctrl_tx_enable_ctx environment_top.dut.txdfifo_rempty environment_top.dut.rxhfifo_rdata environment_top.dut.status_crc_error environment_top.dut.status_lenght_error environment_top.dut.pkt_rx_err environment_top.dut.rxsfifo_wdata environment_top.dut.pkt_tx_val environment_top.dut.txsfifo_wen environment_top.dut.txdfifo_wdata environment_top.dut.local_fault_msg_det environment_top.dut.txhfifo_rempty environment_top.dut.rxhfifo_wen environment_top.dut.status_rxdfifo_udflow_tog environment_top.dut.rxhfifo_wstatus environment_top.dut.txhfifo_walmost_full environment_top.dut.status_remote_fault_crx environment_top.dut.txdfifo_wfull environment_top.dut.wb_rst_i environment_top.dut.reset_xgmii_tx_n environment_top.dut.pkt_tx_data environment_top.dut.status_pause_frame_rx environment_top.dut.txdfifo_wen environment_top.dut.clk_xgmii_rx environment_top.dut.status_pause_frame_rx_tog environment_top.dut.rxhfifo_ren environment_top.dut.txdfifo_walmost_full environment_top.dut.clear_stats_rx_octets environment_top.dut.rxdfifo_rdata environment_top.dut.pkt_tx_full environment_top.dut.wb_ack_o environment_top.dut.rxdfifo_wstatus environment_top.dut.pkt_rx_sop environment_top.dut.stats_tx_octets environment_top.dut.txdfifo_ren environment_top.dut.status_rxdfifo_ovflow_tog environment_top.dut.status_local_fault_crx environment_top.dut.pkt_rx_mod environment_top.dut.txhfifo_rstatus environment_top.dut.status_txdfifo_udflow_tog environment_top.dut.pkt_tx_sop environment_top.dut.status_lenght_error_tog environment_top.dut.wb_cyc_i environment_top.dut.rxhfifo_wdata environment_top.dut.wb_adr_i environment_top.dut.txdfifo_rstatus environment_top.dut.clear_stats_rx_pkts environment_top.dut.reset_xgmii_rx_n environment_top.dut.txhfifo_rdata environment_top.dut.pkt_tx_mod environment_top.dut.status_remote_fault_ctx environment_top.dut.stats_rx_pkts environment_top.dut.remote_fault_msg_det environment_top.dut.txhfifo_wen environment_top.dut.rxdfifo_rempty environment_top.dut.txsfifo_wdata environment_top.dut.clk_xgmii_tx environment_top.dut.clk_156m25 environment_top.dut.status_txdfifo_ovflow_tog environment_top.dut.pkt_rx_eop environment_top.dut.xgmii_txc environment_top.dut.wb_dat_i environment_top.dut.xgmii_txd environment_top.dut.txhfifo_ren environment_top.dut.status_local_fault environment_top.dut.rxhfifo_rempty environment_top.dut.wb_dat_o environment_top.dut.wb_clk_i environment_top.dut.xgmii_rxc environment_top.dut.xgmii_rxd environment_top.dut.stats_rx_octets environment_top.dut.status_local_fault_ctx environment_top.dut.rxdfifo_wdata environment_top.dut.wb_int_o environment_top.dut.pkt_rx_ren environment_top.dut.txhfifo_wstatus environment_top.dut.txdfifo_rdata environment_top.dut.rxsfifo_wen environment_top.dut.pkt_tx_eop environment_top.dut.txdfifo_ralmost_empty environment_top.dut.rxdfifo_wfull environment_top.dut.status_fragment_error environment_top.dut.rxdfifo_ralmost_empty environment_top.dut.pkt_rx_avail environment_top.dut.status_remote_fault environment_top.dut.clear_stats_tx_pkts environment_top.dut.txdfifo_wstatus {environment_top.dut.$unit} environment_top.dut.rxdfifo_wen environment_top.dut.status_txdfifo_udflow environment_top.dut.rxhfifo_rstatus environment_top.dut.status_fragment_error_tog environment_top.dut.status_crc_error_tog environment_top.dut.stats_tx_pkts environment_top.dut.ctrl_tx_enable environment_top.dut.wb_we_i environment_top.dut.pkt_rx_data environment_top.dut.status_rxdfifo_udflow environment_top.dut.txhfifo_wdata environment_top.dut.status_txdfifo_ovflow }
+
+# Global: Highlighting
+
+# Global: Stack
+gui_change_stack_mode -mode list
+
+# Post database loading setting...
+
+# Save global setting...
+
+# Wave/List view global setting
+gui_cov_show_value -switch false
+
+# Close all empty TopLevel windows
+foreach __top [gui_ekki_get_window_ids -type TopLevel] {
+    if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {
+        gui_close_window -window $__top
+    }
+}
+gui_set_loading_session_type noSession
+# DVE View/pane content session: 
+
+
+# Hier 'Hier.1'
+gui_show_window -window ${Hier.1}
+gui_list_set_filter -id ${Hier.1} -list { {Package 1} {All 0} {Process 1} {VirtPowSwitch 0} {UnnamedProcess 1} {UDP 0} {Function 1} {Block 1} {SrsnAndSpaCell 0} {OVA Unit 1} {LeafScCell 1} {LeafVlgCell 1} {Interface 1} {LeafVhdCell 1} {$unit 1} {NamedBlock 1} {Task 1} {VlgPackage 1} {ClassDef 1} {VirtIsoCell 0} }
+gui_list_set_filter -id ${Hier.1} -text {*}
+gui_change_design -id ${Hier.1} -design Sim
+catch {gui_list_expand -id ${Hier.1} environment_top}
+catch {gui_list_select -id ${Hier.1} {environment_top.dut}}
+gui_view_scroll -id ${Hier.1} -vertical -set 0
+gui_view_scroll -id ${Hier.1} -horizontal -set 0
+
+# Class 'Class.1'
+gui_list_set_filter -id ${Class.1} -list { {OVM 1} {VMM 1} {All 1} {Object 1} {UVM 1} {RVM 1} }
+gui_list_set_filter -id ${Class.1} -text {*}
+gui_change_design -id ${Class.1} -design Sim
+
+# Member 'Member.1'
+gui_list_set_filter -id ${Member.1} -list { {InternalMember 0} {RandMember 1} {All 0} {BaseMember 0} {PrivateMember 1} {LibBaseMember 0} {AutomaticMember 1} {VirtualMember 1} {PublicMember 1} {ProtectedMember 1} {OverRiddenMember 0} {InterfaceClassMember 1} {StaticMember 1} }
+gui_list_set_filter -id ${Member.1} -text {*}
+
+# Data 'Data.1'
+gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {LowPower 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+gui_list_set_filter -id ${Data.1} -text {*}
+gui_list_show_data -id ${Data.1} {environment_top.dut}
+gui_view_scroll -id ${Data.1} -vertical -set 0
+gui_view_scroll -id ${Data.1} -horizontal -set 0
+gui_view_scroll -id ${Hier.1} -vertical -set 0
+gui_view_scroll -id ${Hier.1} -horizontal -set 0
+
+# Source 'Source.1'
+gui_src_value_annotate -id ${Source.1} -switch false
+gui_set_env TOGGLE::VALUEANNOTATE 0
+gui_open_source -id ${Source.1}  -replace -active _vcs_unit__675955336 /opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv
+gui_view_scroll -id ${Source.1} -vertical -set 0
+gui_src_set_reusable -id ${Source.1}
+# Warning: Class view not found.
+
+# View 'Wave.1'
+gui_wv_sync -id ${Wave.1} -switch false
+set groupExD [gui_get_pref_value -category Wave -key exclusiveSG]
+gui_set_pref_value -category Wave -key exclusiveSG -value {false}
+set origWaveHeight [gui_get_pref_value -category Wave -key waveRowHeight]
+gui_list_set_height -id Wave -height 25
+set origGroupCreationState [gui_list_create_group_when_add -wave]
+gui_list_create_group_when_add -wave -disable
+gui_wv_zoom_timerange -id ${Wave.1} 0 280
+gui_list_add_group -id ${Wave.1} -after {New Group} {dut}
+gui_seek_criteria -id ${Wave.1} {Any Edge}
+
+
+
+gui_set_env TOGGLE::DEFAULT_WAVE_WINDOW ${Wave.1}
+gui_set_pref_value -category Wave -key exclusiveSG -value $groupExD
+gui_list_set_height -id Wave -height $origWaveHeight
+if {$origGroupCreationState} {
+	gui_list_create_group_when_add -wave -enable
+}
+if { $groupExD } {
+ gui_msg_report -code DVWW028
+}
+gui_list_set_filter -id ${Wave.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+gui_list_set_filter -id ${Wave.1} -text {*}
+gui_list_set_insertion_bar  -id ${Wave.1} -group dut  -position in
+
+gui_view_scroll -id ${Wave.1} -vertical -set 0
+gui_show_grid -id ${Wave.1} -enable false
+# Restore toplevel window zorder
+# The toplevel window could be closed if it has no view/pane
+if {[gui_exist_window -window ${TopLevel.1}]} {
+	gui_set_active_window -window ${TopLevel.1}
+	gui_set_active_window -window ${Source.1}
+	gui_set_active_window -window ${HSPane.1}
+}
+if {[gui_exist_window -window ${TopLevel.2}]} {
+	gui_set_active_window -window ${TopLevel.2}
+	gui_set_active_window -window ${Wave.1}
+}
+#</Session>
+

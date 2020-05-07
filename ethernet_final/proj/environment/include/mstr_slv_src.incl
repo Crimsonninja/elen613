@@ -1,0 +1,12 @@
+
+`include "eth_transmit_tx_monitor.sv" 
+`include "eth_transmit_sequence_library.sv" 
+`include "eth_transmit_tx_sequencer.sv" 
+`include "eth_transmit_eth_data.sv" 
+`include "eth_transmit_tx_driver.sv" 
+`include "eth_transmit.sv" 
+`include "eth_receive_rx_sequencer.sv"
+`include "eth_receive_eth_data.sv"
+`include "eth_receive_rx_monitor.sv"
+`include "eth_receive_rx_driver.sv"
+`include "eth_receive.sv"

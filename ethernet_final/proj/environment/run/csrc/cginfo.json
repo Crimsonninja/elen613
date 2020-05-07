@@ -1,0 +1,240 @@
+{
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "CompileProcesses": [
+        "cgproc.30984.json"
+    ],
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "wb_intf": [
+            "wb_intf",
+            "AdVeQ",
+            "module",
+            10
+        ],
+        "vcs_paramclassrepository": [
+            "vcs_paramclassrepository",
+            "hEeZs",
+            "module",
+            1
+        ],
+        "tx_intf": [
+            "tx_intf",
+            "sLTuT",
+            "module",
+            7
+        ],
+        "generic_fifo_ctrl_0000": [
+            "generic_fifo_ctrl_0000",
+            "NY7Gb",
+            "module",
+            12
+        ],
+        "rx_enqueue": [
+            "rx_enqueue",
+            "LmcDD",
+            "module",
+            14
+        ],
+        "wishbone_if": [
+            "wishbone_if",
+            "s4ZT9",
+            "module",
+            17
+        ],
+        "_vcs_msglog": [
+            "_vcs_msglog",
+            "zQBzV",
+            "module",
+            5
+        ],
+        "_vcs_unit__675955336": [
+            "_vcs_unit__675955336",
+            "D8T4T",
+            "module",
+            2
+        ],
+        "uvm_custom_install_recording": [
+            "uvm_custom_install_recording",
+            "nhiwz",
+            "module",
+            6
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            3
+        ],
+        "uvm_pkg": [
+            "uvm_pkg",
+            "zr7M1",
+            "module",
+            4
+        ],
+        "rx_intf": [
+            "rx_intf",
+            "Ytigr",
+            "module",
+            8
+        ],
+        "environment_tb_mod": [
+            "environment_tb_mod",
+            "Gvq2f",
+            "module",
+            9
+        ],
+        "fault_sm": [
+            "fault_sm",
+            "zk6Si",
+            "module",
+            11
+        ],
+        "rx_dequeue": [
+            "rx_dequeue",
+            "ZGc5j",
+            "module",
+            13
+        ],
+        "sync_clk_wb": [
+            "sync_clk_wb",
+            "UjwLm",
+            "module",
+            15
+        ],
+        "tx_enqueue": [
+            "tx_enqueue",
+            "iNPR2",
+            "module",
+            16
+        ],
+        "xge_mac": [
+            "xge_mac",
+            "ymzz2",
+            "module",
+            18
+        ],
+        "environment_top": [
+            "environment_top",
+            "LDmLU",
+            "module",
+            19
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            20
+        ]
+    },
+    "stat": {
+        "outputSizePerQuad": 108.23771189577319,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 5.122662,
+            "ru_nivcsw": 711,
+            "ru_stime_sec": 0.28453600000000001,
+            "ru_maxrss_kb": 155140,
+            "ru_nvcsw": 1692,
+            "ru_majflt": 0,
+            "ru_minflt": 67968
+        },
+        "nQuads": 162108,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.01242,
+            "ru_nivcsw": 19,
+            "ru_stime_sec": 0.04165,
+            "ru_maxrss_kb": 79740,
+            "ru_nvcsw": 134,
+            "ru_majflt": 0,
+            "ru_minflt": 4976
+        },
+        "mop/quad": 3.1848088928368741,
+        "ru_self_end": {
+            "ru_utime_sec": 9.0545600000000004,
+            "ru_nivcsw": 755,
+            "ru_stime_sec": 0.40338099999999999,
+            "ru_maxrss_kb": 169616,
+            "ru_nvcsw": 2691,
+            "ru_majflt": 0,
+            "ru_minflt": 75073
+        },
+        "CodeGen(%)": 43.42450654697744,
+        "nMops": 516283,
+        "totalObjSize": 17546199,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.01242,
+            "ru_nivcsw": 19,
+            "ru_stime_sec": 0.04165,
+            "ru_maxrss_kb": 79740,
+            "ru_nvcsw": 134,
+            "ru_majflt": 0,
+            "ru_minflt": 4976
+        },
+        "mopSpeed": 131306.30550436454,
+        "quadSpeed": 41228.943375438525,
+        "Frontend(%)": 56.575493453022567,
+        "peak_mem_kb": 355692
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 410564,
+        "archive": "archive.0/_30984_archive_1.a"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "vcs_paramclassrepository",
+        "vcs_paramclassrepository",
+        "_vcs_unit__675955336",
+        "_vcs_unit__675955336",
+        "std",
+        "std",
+        "uvm_pkg",
+        "uvm_pkg",
+        "_vcs_msglog",
+        "_vcs_msglog",
+        "uvm_custom_install_recording",
+        "uvm_custom_install_recording",
+        "tx_intf",
+        "tx_intf",
+        "rx_intf",
+        "rx_intf",
+        "environment_tb_mod",
+        "environment_tb_mod",
+        "wb_intf",
+        "wb_intf",
+        "fault_sm",
+        "fault_sm",
+        "generic_fifo_ctrl_0000",
+        "generic_fifo_ctrl_0000",
+        "rx_dequeue",
+        "rx_dequeue",
+        "rx_enqueue",
+        "rx_enqueue",
+        "sync_clk_wb",
+        "sync_clk_wb",
+        "tx_enqueue",
+        "tx_enqueue",
+        "wishbone_if",
+        "wishbone_if",
+        "xge_mac",
+        "xge_mac",
+        "environment_top",
+        "environment_top"
+    ],
+    "Misc": {
+        "cwd": "/DCNFS/users/student/jtrinh/elen613/ETH_uvm/proj/environment/run",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "daidir": "simv.daidir",
+        "csrc_abs": "/DCNFS/users/student/jtrinh/elen613/ETH_uvm/proj/environment/run/csrc",
+        "daidir_abs": "/DCNFS/users/student/jtrinh/elen613/ETH_uvm/proj/environment/run/simv.daidir",
+        "archive_dir": "archive.0"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileStatus": "Successful"
+}

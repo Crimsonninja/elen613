@@ -1,0 +1,392 @@
+Command: vcs -sverilog -full64 -l vcs.log -ntb_opts uvm +incdir+../include+../src+../env+../tests+../hdl \
+-timescale=1ns/1ps -debug_access+all -debug_all ../tests/environment_tb_mod.sv ../hdl/environment_top.sv \
+
+                         Chronologic VCS (TM)
+      Version M-2017.03-SP1-1_Full64 -- Mon Jun 17 21:15:33 2019
+               Copyright (c) 1991-2017 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_version_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_message_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_phase_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_object_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_printer_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_tlm_defines.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm_imps.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_tlm_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_sequence_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_callback_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_reg_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/macros/uvm_deprecated_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/directc/uvm_directc.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/directc/uvm_seed.vh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/directc/uvm_directc.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/dpi/uvm_dpi.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/dpi/uvm_hdl.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/dpi/uvm_dpi.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/dpi/uvm_dpi.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/dpi/uvm_regex.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/dpi/uvm_dpi.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_version.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_object_globals.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_misc.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_object.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_pool.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_queue.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_factory.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_registry.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_spell_chkr.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_resource.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/deprecated/uvm_resource_converter.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_resource_specializations.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_resource_db.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_config_db.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_printer.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_comparer.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_packer.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_recorder.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_event_callback.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_event.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_barrier.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_callback.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_macros.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_callback.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_report_catcher.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_report_server.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_report_handler.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_report_object.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_transaction.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_phase.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_domain.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_bottomup_phase.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_topdown_phase.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_task_phase.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_common_phases.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_runtime_phases.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_component.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_root.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_component.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_objection.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_heartbeat.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_globals.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_cmdline_processor.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_base.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/base/uvm_port_base.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm_imps.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_imps.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_ports.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_exports.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_analysis_port.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_sqr_connections.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm1/uvm_tlm.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_pair.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_policies.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_in_order_comparator.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_random_stimulus.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_subscriber.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_monitor.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_driver.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_push_driver.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_scoreboard.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_agent.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_env.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_test.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/comps/uvm_comps.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequence_item.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequencer_base.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequencer_param_base.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequencer.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_push_sequencer.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequence_base.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequence.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequence_library.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_sequence_builtin.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/seq/uvm_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_time.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/tlm2/uvm_tlm2.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_item.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_adapter.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_predictor.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_sequence.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_cbs.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_backdoor.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_field.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_vreg_field.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_indirect.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_fifo.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_file.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_mem_mam.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_vreg.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_mem.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_map.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_block.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/snps_uvm_reg_bank.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/reg/uvm_reg_model.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/uvm_pkg.sv'.
+Parsing design file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/msglog.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/uvm_msglog_report_server.sv'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/uvm_vcs_recorder.svh'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'.
+Parsing included file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/uvm_vcs_record_interface.sv'.
+Back to file '/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/vcs/uvm_custom_install_vcs_recorder.sv'.
+Parsing design file '../tests/environment_tb_mod.sv'
+Parsing included file '../include/mstr_slv_intfs.incl'.
+Parsing included file '../src/eth_transmit_tx_intf.sv'.
+Back to file '../include/mstr_slv_intfs.incl'.
+Parsing included file '../src/eth_receive_rx_intf.sv'.
+Back to file '../include/mstr_slv_intfs.incl'.
+Back to file '../tests/environment_tb_mod.sv'.
+Parsing included file '../env/environment_env.sv'.
+Parsing included file '../include/environment.sv'.
+Parsing included file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_transmit_tx_monitor.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_transmit_sequence_library.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_transmit_tx_sequencer.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_transmit_eth_data.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_transmit_tx_driver.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../env/eth_transmit.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_receive_rx_sequencer.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_receive_eth_data.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_receive_rx_monitor.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../src/eth_receive_rx_driver.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Parsing included file '../env/eth_receive.sv'.
+Back to file '../include/mstr_slv_src.incl'.
+Back to file '../include/environment.sv'.
+Parsing included file '../src/environment_cfg.sv'.
+Back to file '../include/environment.sv'.
+Parsing included file '../src/eth_scoreboard.sv'.
+Back to file '../include/environment.sv'.
+Parsing included file '../src/environment_cov.sv'.
+Back to file '../include/environment.sv'.
+Parsing included file '../src/mon_2cov.sv'.
+Back to file '../include/environment.sv'.
+Back to file '../env/environment_env.sv'.
+Back to file '../tests/environment_tb_mod.sv'.
+Parsing included file '../tests/environment_test.sv'.
+Back to file '../tests/environment_tb_mod.sv'.
+Parsing included file '../tests/test00.sv'.
+Back to file '../tests/environment_tb_mod.sv'.
+Parsing design file '../hdl/environment_top.sv'
+Parsing included file '../src/eth_wishbone_intf.sv'.
+Back to file '../hdl/environment_top.sv'.
+Parsing included file '../hdl/eth.v'.
+Back to file '../hdl/environment_top.sv'.
+Parsing included file '../hdl/defines.v'.
+Back to file '../hdl/environment_top.sv'.
+Top Level Modules:
+       uvm_custom_install_recording
+       environment_top
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+Notice: Ports coerced to inout, use -notice for details
+17 unique modules to generate
+recompiling package vcs_paramclassrepository
+recompiling package uvm_pkg
+recompiling package _vcs_msglog
+recompiling module uvm_custom_install_recording
+recompiling module tx_intf
+recompiling module rx_intf
+recompiling module environment_tb_mod
+recompiling module wb_intf
+recompiling module fault_sm
+recompiling module generic_fifo_ctrl
+recompiling module rx_dequeue
+recompiling module rx_enqueue
+recompiling module sync_clk_wb
+recompiling module tx_enqueue
+recompiling module wishbone_if
+recompiling module xge_mac
+recompiling module environment_top
+All of 17 modules done
+make[1]: Entering directory `/DCNFS/users/student/jtrinh/elen613/ETH_uvm/proj/environment/run/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+g++ -w  -pipe -DVCS -fPIC -O -I/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/include \
+-c /opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/etc/uvm/dpi/uvm_dpi.cc
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic  uvm_dpi.o   objs/amcQw_d.o \
+_30984_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          /opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/libzerosoft_rt_stubs.so \
+/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/libvirsim.so /opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/liberrorinf.so \
+/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/libsnpsmalloc.so    /opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/libvcsnew.so \
+/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/libsimprofile.so /opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/libuclinative.so \
+/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+/opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/libvcsucli.so -Wl,-no-whole-archive \
+./../simv.daidir/vc_hdrs.o    /opt/synopsys-2017/app/vcs-mx/M-2017.03-SP1-1/linux64/lib/vcs_save_restore_new.o \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/DCNFS/users/student/jtrinh/elen613/ETH_uvm/proj/environment/run/csrc' \
+
+CPU time: 9.613 seconds to compile + .535 seconds to elab + .815 seconds to link
